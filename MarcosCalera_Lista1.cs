@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace MarcosCalera_Lista1
 {
 
@@ -12,12 +12,12 @@ namespace MarcosCalera_Lista1
             //ex2(); // feito
             //ex3(); // feito
             //ex4(); // feito
-            //ex5(); // foi pedido para ser pulado
-            ex6(); // feito
+            ex5(); // feito
+            //ex6(); // feito
             //ex7(); // feito
             //ex8(); // feito
             //ex9(); // feito
-            //ex10(); // feito
+            
         }
 
         static void ex1() // EXERCICIO 1
@@ -107,12 +107,7 @@ namespace MarcosCalera_Lista1
             }
         }
 
-        /*static void ex6() // EXERCICO 5 PULADO
-        {
-
-        }*/
-
-        static void ex6() // EXERCICO 6
+        static void ex5() // EXERCICO 5
         {
             int termo = 15;
             Console.WriteLine("série de fibonacci do 1º ao 15º termo:");
@@ -123,7 +118,7 @@ namespace MarcosCalera_Lista1
 
         }
 
-        static int fibonacci(int n) // EXERCICIO 6 
+        static int fibonacci(int n) // EXERCICIO 5
         {
             if (n <= 0)
                 return 0;
@@ -144,7 +139,7 @@ namespace MarcosCalera_Lista1
             return resultado;
         }
 
-        static void ex7() // EXERCICIO 7
+        static void ex6() // EXERCICIO 6
         {
             int[] numeros = new int[4];
             float[] resultado = new float[4];
@@ -175,7 +170,7 @@ namespace MarcosCalera_Lista1
             }
         }
 
-        static void ex8() // EXERCICIO 8
+        static void ex7() // EXERCICIO 7
         {
             int[] numeros = new int[10];
 
@@ -215,7 +210,7 @@ namespace MarcosCalera_Lista1
                 Console.Write(num + " ");
             }
 
-            static void BubbleSortCrescente(int[] array) // EXERCICIO 8 BUBBLE C
+            static void BubbleSortCrescente(int[] array) // EXERCICIO 7 BUBBLE C
             {
                 int n = array.Length;
                 for (int i = 0; i < n - 1; i++)
@@ -233,7 +228,7 @@ namespace MarcosCalera_Lista1
                 }
             }
 
-            static void BubbleSortDecrescente(int[] array) // EXERCICIO 8 BUBBLE DC
+            static void BubbleSortDecrescente(int[] array) // EXERCICIO 7 BUBBLE DC
             {
                 int n = array.Length;
                 for (int i = 0; i < n - 1; i++)
@@ -252,7 +247,7 @@ namespace MarcosCalera_Lista1
             }
         }
 
-        static void ex9() // EXERCICIO 9
+        static void ex8() // EXERCICIO 8
         {
             float[] vetor = new float[10];
             float menor, maior;
@@ -283,7 +278,7 @@ namespace MarcosCalera_Lista1
             Console.WriteLine($"\nO maior numero é: {maior}\nO menor numero é: {menor}");
         }
 
-        static void ex10() // EXERCICIO 10
+        static void ex9() // EXERCICIO 9
         {
             Console.WriteLine("Digite um numero inteiro");
             int digitado = int.Parse(Console.ReadLine());
